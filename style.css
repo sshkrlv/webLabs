@@ -26,7 +26,7 @@
 
 .header_menu .icon {display: none;}
 
-@media (max-width: 550px) {
+@media (max-width: 585px) {
     .header_menu a {display: none;}
     .header_menu a.icon {
         float: right;
