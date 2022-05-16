@@ -11,7 +11,7 @@
 .header_menu a {
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     position: relative;
     padding-bottom: 20px;
     margin: 0 34px 0 30px;
@@ -48,3 +48,51 @@
 
 
 p {font-family: 'PT Sans';}
+
+
+
+
+.social__grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 -15px -30px
+}
+
+.social__grid .social-link {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin: 0 5px 30px
+}
+
+.social__grid .social-link {
+    background-image: url("https://besedina.moscow//static/img/social/g.png");
+    background-size: 254px;
+    width: 35px;
+    height: 36px;
+    background-repeat: no-repeat;
+}
+.social__grid .social-link:hover {background-image: url("https://besedina.moscow//static/img/social/b.png");}
+
+.social__grid .social-link:before {content: '' !important;}
+.social__grid .social-link.fa-vk {background-position: -44px 0}
+.social__grid .social-link.fa-twitter {background-position: -88px 0}
+.social__grid .social-link.fa-instagram {background-position: -132px 0}
+.social__grid .social-link.fa-telegram-plane {background-position: -176px 0}
+.social__grid .social-link.fa-youtube {background-position: -220px 0}
+
+.social-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    color: inherit;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s
+}
